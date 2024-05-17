@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d7dc4ac25ddf4f6eb44eec346aeabf98" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="ModelEF.Chofer" Width="1.5" PointX="17" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Permiso" Width="1.5" PointX="9.125" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Rol" Width="1.5" PointX="9.125" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Usuario" Width="1.5" PointX="12" PointY="8.5" IsExpanded="true" />
+        <AssociationConnector Association="ModelEF.PRolFk" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.URolFk" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ModelEF.Bus" Width="1.5" PointX="17" PointY="8.5" />
+        <EntityTypeShape EntityType="ModelEF.Encomienda" Width="1.5" PointX="11.875" PointY="12.125" />
+        <EntityTypeShape EntityType="ModelEF.Pasaje" Width="1.5" PointX="14.5" PointY="8.625" />
+        <AssociationConnector Association="ModelEF.BChFk" />
+        <AssociationConnector Association="ModelEF.PBFk" />
+        <AssociationConnector Association="ModelEF.EUFk" />
+        <AssociationConnector Association="ModelEF.PUFk" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
